@@ -9,6 +9,7 @@ import Layout from "./pages/Layout";
 
 import Headlines from "./pages/Headlines";
 import Archives from "./pages/Archives";
+import Extras from "./pages/Extras";
 
 
 const app = document.getElementById("app");
@@ -19,8 +20,9 @@ ReactDOM.render(
       <IndexRoute component={Headlines}></IndexRoute>
       <Route path="archives" component={Archives}></Route>
       <Route path="headlines" component={Headlines}></Route>
+      <Route path="extras" component={Extras}></Route>
     </Route>
-  </Router>, 
+  </Router>,
   app);
 
 
