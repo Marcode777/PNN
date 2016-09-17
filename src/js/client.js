@@ -19,8 +19,8 @@ ReactDOM.render(
     <Route path="/" component={Layout}>
       <IndexRoute component={Headlines}></IndexRoute>
       <Route path="archives(/:article)" component={Archives}></Route>
-      <Route path="headlines" component={Headlines}></Route>
-      <Route path="extras(/:article)" component={Extras}></Route>
+      <Route path="headlines(:headlines)" component={Headlines}></Route>
+      <Route path="extras(/:extras)" component={Extras}></Route>
     </Route>
   </Router>,
   app);
