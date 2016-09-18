@@ -26,10 +26,13 @@ export default class Layout extends React.Component {
       <div style={jsStyle}>
         <h1>Your Source For Uplifting News (because mainstream is just too negative)</h1>
         {this.props.children}
-        <Link to="archives"><button class="btn btn-primary">archives</button></Link>
+        <Link to="archives" activeClassName="aha!"><button class="btn btn-primary">archives</button></Link>
         <Link to="headlines"><button class="btn btn-primary">headlines</button></Link>
-        <Link to="extras"><button class="btn btn-primary">extras</button></Link>
+        <Link to="extras" activeClassName="yup!"><button class="btn btn-primary">extras</button></Link>
+        <p>Copyright &copy; PNN (demonstration by Marco Sebello)</p>
       </div>
     );
   }
 }
+
+// for React, contrary to popular belief, for simple styling, it is advisable to implement inline styles via style objects, and typical css-style dash syntax is actually camelCase in React
