@@ -10,9 +10,6 @@ export default class Extras extends React.Component {
       <div style={extrasStyle}>
         <h1>Welcome to Extras</h1>
         <p> Check here extra random things that can uplift you </p>
-        <Link to="archives"><button class="btn btn-primary">archives</button></Link>
-        <Link to="headlines"><button class="btn btn-primary">headlines</button></Link>
-        <Link to="extras"><button class="btn btn-primary">extras</button></Link>
       </div>
     );
   }

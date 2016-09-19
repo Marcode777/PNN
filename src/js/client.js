@@ -16,7 +16,7 @@ const app = document.getElementById("app");
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={Layout}>
+    <Route path="/" component={Layout}> 
       <IndexRoute component={Headlines}></IndexRoute>
       <Route path="archives(/:article)" component={Archives}></Route>
       <Route path="headlines(:headlines)" component={Headlines}></Route>
@@ -35,3 +35,4 @@ ReactDOM.render(
 // *** be aware that since, this is JSX, some syntax which you think you have normally commented out in JS, will still show up because you're typing in JSX.***
 // instead of having just "<Route path="archives/:article" component={Archives}></Route>" wrapping the params in parens such as "<Route path="archives(/:article)" component={Archives}></Route>" to make the routes optional, so now the route will match either way if the url has article or if it doesn't have article in it
 // in order for the index route to display properly, this html file has to be named index.html
+// Layout, in "<Route path="/" component={Layout}>" is the main component all other pages must be imported here. In order for an Index Route to be displayed, that page must be contained here.
