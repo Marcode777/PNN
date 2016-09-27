@@ -11,12 +11,16 @@ var linkStyle = {
   color: "maroon"
 }
 
+var textAlign = {
+  textAlign:"center",
+}
+
 export default class Headlines extends React.Component {
 
   render() {
     return (
       <div>
-      <h1>Headlines</h1>
+      <h1 style= {textAlign}>Headlines</h1>
       <h3>POSITIVE NEWS!</h3>
         <div>
           <div class="col-md-4">
