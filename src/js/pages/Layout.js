@@ -27,12 +27,14 @@ export default class Layout extends React.Component {
     const containerStyle = {
       marginTop: "60px",
 
-      backgroundImage: 'url("https://s3.amazonaws.com/s3.imagefinder.co/uploads/2016/01/20143942/boss-fight-free-high-quality-stock-images-photos-photography-new-york-city-skyline-960x640.jpg")',
+      backgroundImage: 'url("https://static.pexels.com/photos/9574/pexels-photo.jpeg")',
       position:"absolute",
       WebkitBackgroundSize: 'cover', // note the capital 'W' here
       height:"100%",
       width:"100%",
+      color:"white",
     };
+
 
     return (
       <div>
