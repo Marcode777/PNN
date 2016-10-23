@@ -48,6 +48,11 @@ export default class Headlines extends React.Component {
                 <li><a href="http://www.businessinsider.com/trump-clinton-one-nice-thing-debate-2016-10"><strong style={linkStyle}>Trump and Hillary Say One Nice Thing To Each Other </strong></a></li>
               </ul>
           </div>
+           <div class="col-md-4">
+              <ul>
+                <li><a href="https://www.bloomberg.com/view/articles/2016-10-21/the-philippines-just-blew-up-obama-s-asia-pivot"><strong style={linkStyle}>Phillippines Changes Asia Pivot </strong></a></li>
+              </ul>
+          </div>
        
 
 
