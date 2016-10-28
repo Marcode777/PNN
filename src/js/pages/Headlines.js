@@ -53,7 +53,11 @@ export default class Headlines extends React.Component {
                 <li><a href="https://www.bloomberg.com/view/articles/2016-10-21/the-philippines-just-blew-up-obama-s-asia-pivot"><strong style={linkStyle}>Phillippines Changes Asia Pivot </strong></a></li>
               </ul>
           </div>
-       
+            <div class="col-md-4">
+              <ul>
+                <li><a href="http://www.bbc.com/news/world-asia-37700409"><strong style={linkStyle}>Phillippines President Duterte Successful Visit In China For Trade and Peace </strong></a></li>
+              </ul>
+          </div>
 
 
         </div>
