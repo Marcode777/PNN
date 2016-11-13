@@ -58,10 +58,15 @@ export default class Headlines extends React.Component {
                 <li><a href="http://www.bbc.com/news/world-asia-37700409"><strong style={linkStyle}>Phillippines President Duterte Successful Visit In China For Trade and Peace </strong></a></li>
               </ul>
           </div>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li><a href="http://www.foxnews.com/politics/2016/11/08/first-polls-close-in-2016-race-trump-projected-to-win-ind-ky-clinton-wins-vt.html"><strong style={linkStyle}>Trump Wins United State Presidential Election</strong></a></li>
+              </ul>
+          </div>
 
 
         </div>
-      </div>
     );
   }
 
