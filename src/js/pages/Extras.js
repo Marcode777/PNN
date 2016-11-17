@@ -3,12 +3,16 @@ import React from "react";
 
 import {Link} from "react-router";
 
+var textAlign = {
+  textAlign:"center",
+}
+
 export default class Extras extends React.Component {
 
   render() {
     return (
-      <div style={extrasStyle}>
-        <h1>Welcome to Extras</h1>
+      <div>
+        <h1 style={textAlign}>Extras</h1>
         <p> Check here extra random things that can uplift you </p>
       </div>
     );
